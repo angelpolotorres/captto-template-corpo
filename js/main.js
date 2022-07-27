@@ -1,6 +1,6 @@
 // Header JS
-const toggleNav = document.getElementById('nav-toggle');
-const menu = document.getElementById('nav-menu');
+const toggleNav = document.getElementById('toggle-responsive');
+const menu = document.getElementById('menu-responsive');
 
 toggleNav.addEventListener('click', () => {
     const clases = [...menu.classList];
