@@ -1,0 +1,228 @@
+<!--Banner form-->
+<section
+    class="relative bg-cover bg-no-repeat"
+    style="background-image: url('img/bg-banner.png')"
+>
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
+    <div class="relative pt-20 pb-20">
+        <div class="container mx-auto px-4">
+            <div class="-mx-4 flex flex-wrap">
+                <div
+                    class="mb-12 flex w-full items-center px-4 md:mb-20 lg:mb-0 lg:w-1/2"
+                >
+                    <div class="w-full text-center lg:text-left">
+                        <div class="mx-auto max-w-md lg:mx-0">
+                            <h2
+                                class="font-heading mb-3 text-4xl font-bold text-white lg:text-5xl"
+                            >
+                                Texto empresa personalizable para el banner
+                            </h2>
+                        </div>
+                        <div class="mx-auto max-w-sm lg:mx-0">
+                            <p class="mb-6 leading-loose text-gray-200">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque efficitur nisl
+                                sodales egestas lobortis.
+                            </p>
+                            <div>
+                                <a
+                                    class="mb-3 inline-block w-full rounded bg-green-600 py-2 px-6 font-semibold leading-loose text-white transition duration-200 hover:bg-green-700 lg:mb-0 lg:mr-3 lg:w-auto"
+                                    href="#"
+                                    >Ver Servicios</a
+                                ><a
+                                    class="inline-block w-full rounded bg-white py-2 px-6 font-semibold transition duration-200 hover:bg-gray-50 lg:w-auto"
+                                    href="#"
+                                    >Saber más</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="mx-auto max-w-sm text-center">
+                        <div
+                            class="mb-4 rounded-xl bg-white px-6 py-8 shadow-md"
+                        >
+                            <div class="mb-6">
+                                <span
+                                    class="text-sm font-semibold uppercase text-green-500"
+                                    >Contacta</span
+                                >
+                                <h3 class="text-2xl font-bold">
+                                    ¿En qué te podemos ayudar?
+                                </h3>
+                            </div>
+                            <form action="">
+                                <!--Nombre-->
+                                <div class="mb-4 rounded bg-gray-50">
+                                    <input
+                                        class="w-full rounded bg-gray-50 p-4 text-xs outline-none"
+                                        type="text"
+                                        placeholder="Nombre y Apellidos"
+                                    />
+                                </div>
+                                <!--End Nombre-->
+                                <!--Email/phone-->
+                                <div class="-mx-2 flex flex-wrap">
+                                    <div class="mb-4 w-full px-2 lg:w-1/2">
+                                        <input
+                                            class="w-full rounded bg-gray-50 p-4 text-xs outline-none"
+                                            type="email"
+                                            placeholder="Email"
+                                        />
+                                    </div>
+                                    <div class="mb-4 w-full px-2 lg:w-1/2">
+                                        <input
+                                            class="w-full rounded bg-gray-50 p-4 text-xs outline-none"
+                                            type="tel"
+                                            placeholder="Teléfono"
+                                        />
+                                    </div>
+                                </div>
+                                <!--End email/phone-->
+
+                                <!--Mensaje-->
+                                <div class="flex rounded bg-gray-50 p-4">
+                                    <textarea
+                                        class="w-full bg-gray-50 text-xs outline-none"
+                                        name="message"
+                                        placeholder="Mensaje..."
+                                    ></textarea>
+                                </div>
+                                <!--End-->
+                                <!--Politica-->
+                                <div class="-mx-4 flex gap-2 p-4 text-xs">
+                                    <input
+                                        type="checkbox"
+                                        id="terms"
+                                        required
+                                    />
+                                    <label for="terms"
+                                        >He leído y acepto la
+                                        <a
+                                            href="#"
+                                            class="text-green-600 hover:text-green-400"
+                                            >Política de privacidad</a
+                                        >
+                                    </label>
+                                </div>
+                                <!--End política-->
+                                <div class="text-center">
+                                    <button
+                                        class="mb-2 w-full rounded bg-green-600 py-4 text-sm font-bold text-gray-50 transition duration-200 hover:bg-green-700"
+                                    >
+                                        Enviar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="navbar-menu fixed top-0 left-0 bottom-0 z-50 hidden w-5/6 max-w-sm"
+    >
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+            class="relative flex h-full w-full flex-col overflow-y-auto border-r bg-white py-6 px-6"
+        >
+            <div class="mb-8 flex items-center">
+                <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                    <img
+                        class="h-10"
+                        src="atis-assets/logo/atis/atis-mono-black.svg"
+                        alt=""
+                        width="auto"
+                    />
+                </a>
+                <button class="navbar-close">
+                    <svg
+                        class="h-6 w-6 cursor-pointer text-gray-400 hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <ul>
+                    <li class="mb-1">
+                        <a
+                            class="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                            href="#"
+                            >Start</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                            href="#"
+                            >About Us</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                            href="#"
+                            >Services</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                            href="#"
+                            >Platform</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                            href="#"
+                            >Testimonials</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-auto">
+                <div class="pt-6">
+                    <a
+                        class="mb-3 block rounded-l-xl rounded-t-xl bg-gray-50 px-4 py-3 text-center text-xs font-semibold leading-loose hover:bg-gray-100"
+                        href="#"
+                        >Sign In</a
+                    ><a
+                        class="mb-2 block rounded-l-xl rounded-t-xl bg-green-600 px-4 py-3 text-center text-xs font-semibold leading-loose text-white hover:bg-green-700"
+                        href="#"
+                        >Sign Up</a
+                    >
+                </div>
+                <p class="my-4 text-center text-xs text-gray-400">
+                    <span>© 2020 All rights reserved.</span>
+                </p>
+                <div class="text-center">
+                    <a class="inline-block px-1" href="#">
+                        <img src="atis-assets/social/facebook.svg" alt="" />
+                    </a>
+                    <a class="inline-block px-1" href="#">
+                        <img src="atis-assets/social/twitter.svg" alt="" />
+                    </a>
+                    <a class="inline-block px-1" href="#">
+                        <img src="atis-assets/social/instagram.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!--End banner form-->
